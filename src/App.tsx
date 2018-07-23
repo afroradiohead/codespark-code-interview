@@ -56,7 +56,7 @@ class App extends React.Component {
             <div>
                 <Navbar color="light" expand="md">
                     <Container>
-                        <NavbarBrand href="/">Codespark</NavbarBrand>
+                        <NavbarBrand href="/">Codespark <small>Christopher Clarke</small></NavbarBrand>
                         <Nav className="ml-auto" navbar={true}>
                             <NavItem eventKey={1} href="#">
                                 <NavLink href="https://github.com/afroradiohead/codespark-code-interview" target="_blank">
