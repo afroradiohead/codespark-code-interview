@@ -27,7 +27,8 @@
     "webpack",
     "jest",
     "src/setupTests.ts",
-    "src-backend"
+	  "src-backend",
+	  "build-backend"
   ],
 	"rules": {
 		"named-imports-order": "any"

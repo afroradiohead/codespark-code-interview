@@ -37,7 +37,7 @@
     "build:backend": "tsc --project src-backend/tsconfig.json",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
-    "heroku-postbuild": "npm run build && num run build:backend"
+    "heroku-postbuild": "npm run build && npm run build:backend"
   },
   "devDependencies": {
     "@types/jest": "^23.3.0",

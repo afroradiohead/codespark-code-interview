@@ -4,7 +4,9 @@
     "exclude": [
       "config/**/*.js",
       "node_modules/**/*.ts",
-      "src-backend"
+      "src-backend",
+	    "build",
+	    "build-backend"
     ]
   }
 }
