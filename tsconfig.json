@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "build/dist",
+    "outDir": "build",
     "module": "esnext",
     "target": "es5",
     "lib": ["es6", "dom"],
@@ -16,7 +16,8 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true
+    "noUnusedLocals": true,
+	  "experimentalDecorators": true
   },
   "exclude": [
     "node_modules",
@@ -25,7 +26,8 @@
     "acceptance-tests",
     "webpack",
     "jest",
-    "src/setupTests.ts"
+    "src/setupTests.ts",
+    "src-backend"
   ],
 	"rules": {
 		"named-imports-order": "any"

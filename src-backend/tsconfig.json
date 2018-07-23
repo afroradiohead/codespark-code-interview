@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"declaration": true,
+		"noImplicitAny": false,
+		"removeComments": true,
+		"noLib": false,
+		"allowSyntheticDefaultImports": true,
+		"emitDecoratorMetadata": true,
+		"target": "es6",
+		"rootDir": ".",
+		"outDir": "../build-backend",
+		"module": "commonjs",
+		"experimentalDecorators": true
+	}
+}
