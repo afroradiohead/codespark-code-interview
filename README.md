@@ -25,4 +25,5 @@ Total Time: 10.5 hours
 2. Use SASS for the css compilation
 3. Host on AWS Beanstalk
 4. Tidy up the frontend code
-5. Add a few functional tests
+5. Tidy up design
+6. Add a few functional tests
